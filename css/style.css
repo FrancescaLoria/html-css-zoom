@@ -1,0 +1,27 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* layout */
+.container{
+    height: 100vh;
+    background-color: black;
+}
+
+/* main */
+main{
+    height: 90%;
+    background-color: aqua;
+}
+
+
+/* footer */
+footer{
+    height: 10%;
+    background-color: blueviolet;
+}
