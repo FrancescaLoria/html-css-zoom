@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 /* layout */
@@ -39,6 +44,19 @@ main > div{
     border: 1px solid black;
 }
 
+.card{
+    height: 100%;
+    position: relative;
+}
+
+.name{
+    background-color:#64717F;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 2px 8px;
+}
 
 /* footer */
 footer{
